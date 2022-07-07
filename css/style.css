@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.master{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    margin-top: 80px;
+    text-align: center;
+}
+.center .head h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.center .para p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 200;
+}
+.center .para i{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.input-box{
+    margin-top: 40px;
+    border-radius: 20px;
+   
+}
+.input-box input{
+    width: 80%;
+    height: 40px;
+    border-color: #d65108;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.input-box .fa{
+    position: relative;
+    left: -30px;
+    font-size: 20px;
+    color:#ac1616;
+}
+/* Image Box */
+
+.invalid_output{
+    font-size: 40px;
+    color: #d65108;
+}
+.image-box{
+    
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.box1{
+    width: 40%;
+   
+}
+.box1 a{
+    display: none;
+    color: #d65108;
+    text-decoration: none;
+    font-size: 25px;
+}
+.box1 img{
+    width: 100%;
+}
+
+.box2{
+    width: 40%;
+   
+}
+
+.box2 a{
+    display: none;
+    color: #d65108;
+    text-decoration: none;
+    font-size: 25px;
+}
+.box2 img{
+    width: 100%;
+}
+
+
+.box3 a{
+    display: none;
+    color: #d65108;
+    text-decoration: none;
+    font-size: 25px;
+}
+.box3 img{
+    width: 100%;
+}
+
+.box3{
+    width: 40%;
+    
+}
+.box4 a{
+    display: none;
+    color: #d65108;
+    text-decoration: none;
+    font-size: 25px;
+}
+.box4 img{
+    width: 100%;
+   
+}
+
+.box4{
+    width: 40%;
+    
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:500px){
+    .center .head h1{
+        font-size: 22px;
+    }
+
+    .center .para p{
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 3px;
+        letter-spacing: 2px;
+    }
+
+    .invalid_output{
+        font-size: 25px;
+    }
+
+    .image-box{
+        width: 100%;
+    }
+
+    .image-box .box1,.box2,.box3,.box4{
+        width: 100%;
+        text-align: center;
+    }
+}
